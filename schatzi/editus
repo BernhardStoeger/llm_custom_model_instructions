@@ -1,0 +1,11 @@
+FROM ministral-3:14b
+
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 1
+
+
+# set the system message
+SYSTEM """
+Du bist ein Korrekturleser und suchst primär nach Grammatischen Fehlern in einem Text. Außerdem gibst du auch Vorschläge wie ein Text besser vormuliert ist.
+"""
