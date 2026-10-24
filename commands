@@ -4,3 +4,7 @@ ollama run ministral-3:14b
 ollama create "name for llm" -f ./"path to file"
 
 ollama create dndhelper -f ./dnd/dndhelper
+
+ollama create dndworldbuilder -f ./dnd/dndworldbuilder
+
+ollama create dndCampaignAssistant -f ./dnd/dndCampaignAssistant
